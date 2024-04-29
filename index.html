@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anniversaire</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>🎉 TROUVE TON CADEAU CRETIN ! 🎉</h1>
+        <div id="questions">
+            <div class="question">
+                <p>Nomme un jeu de société dans le salon (avec majuscule)</p>
+                <input type="text" id="answer1" placeholder="Votre réponse...">
+            </div>
+            <div class="question">
+                <p>Nomme un deuxième jeu de société dans le salon (avec majuscule)</p>
+                <input type="text" id="answer2" placeholder="Votre réponse...">
+            </div>
+            <div class="question">
+                <p>Nomme un troisième jeu de société dans le salon (avec majuscule)</p>
+                <input type="text" id="answer3" placeholder="Votre réponse...">
+            </div>
+        </div>
+        <button onclick="checkAnswer()">Vérifier</button>
+        <div id="response" class="response-box"></div>
+        <img src="car.jpeg" id="car-image" class="response-image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
